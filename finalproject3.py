@@ -1,7 +1,7 @@
 import streamlit as st
 from sqlalchemy import text
 
-list_train = ['', 'BCA', 'BRI', 'BNI', 'MANDIRI', 'BTN', 'BSI']
+list_bank = ['', 'BCA', 'BRI', 'BNI', 'MANDIRI', 'BTN', 'BSI']
 list_gender = ['', 'male', 'female']
 
 conn = st.connection("postgresql", type="sql", 
