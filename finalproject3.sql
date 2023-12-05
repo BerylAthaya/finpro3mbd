@@ -6,8 +6,8 @@ create table schedule (
 	gender text,
 	jenis_tabungan text,
 	rekening text,
-    alamat text,
-    waktu_pembuatan time,
+   	alamat text,
+ 	waktu_pembuatan time,
 	tanggal_pembuatan date,
 );
 
